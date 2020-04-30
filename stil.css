@@ -1,0 +1,96 @@
+#naslov {
+	text-align: center;
+	font-size: 45px;
+    max-width: 100%;
+}
+
+#uvod {
+	display:inline-block;
+	
+	border: invisible;
+	padding: 10px;
+	
+}
+
+#telefon {
+	font-size:10px;
+	position: relative;
+	top: -28px;
+	right: -30px;
+}	
+
+.intro {
+	font-family: "Tahoma", "Arial", sans-serif;
+	text-align: justify;
+	text-indent: 20px;
+	letter-spacing: 2px;
+	font-size: 16px;
+}
+
+body {
+	margin-right: auto;
+	margin-left: auto;
+	width: 75%;
+	border-left: 1px dashed gray;
+	border-right: 1px dashed gray;
+	border-bottom: 1px solid gray;
+
+	padding-left: 25px;
+	padding-right: 25px;
+	float: center;
+	box-shadow: 0px 15px 10px 0px gray;
+}
+
+.tags {
+	color:white;
+	background-color: rgb(74, 93, 104);
+	border: invisible;
+	margin-right: 30px;
+	padding: 10px;
+	font-size: 20px;
+}
+
+.logo{
+    height: 18px;
+    width: 33px;
+    background-repeat: no-repeat;
+    position: relative;
+	top: 4px;
+}
+
+.slike{
+    width: 225px;
+    height: 230px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border:solid black 1px;
+    padding: 2px;
+    float: left;
+    clear: left;
+}
+.text-slike {
+    font-family: "Tahoma", "Arial", sans-serif;
+	text-align: justify;
+	
+	letter-spacing: 2px;
+	font-size: 16px;
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+#zacelje{
+clear: left;
+padding-top: 30px;
+
+}
