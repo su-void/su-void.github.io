@@ -6,7 +6,11 @@
 	<link rel="stylesheet" href="stil.css" type="text/css">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
+	
+        
 <title> A.B.C BOJE </title>
 
 <style>
@@ -27,6 +31,14 @@ body {
 <body id="sajt">
 	
 	<div style='text-align: center'>
+       <div class="video-wrapper">
+        <div class='video-container'>
+            <iframe width="450" height="300" src="https://www.youtube.com/embed/6jIMn2H8VyM?feature=oembed" frameborder="0" allowfullscreen></iframe>
+        </div>
+        </div>
+	 </div>
+	
+	<div>
 		<p class='intro' title="O firmi">
 			Zvanični zastupnik kompanije BESA u Crnoj Gori. BESA je proizvodjač lakova, farbi,
 			gitova, razredjivača širokog spektra primena. BESA je osnovana 1963. godine, i za
@@ -34,31 +46,56 @@ body {
 			premazi i farbi, namenjenih za industriju, industrijsku tehniku i popravke
 			karoserije i postala jedna od vodecih proizvodjača industrijskih sistema za 
 			toniranje u Evropi.<br/>
-			Odabir boja po <img class="logo" src="Logo/logo1.png" alt="logo">, <img class="logo" src="Logo/logo2.png" alt="logo">, UNE.<br/>
+			Odabir boja po <img class="logo" src="Logo/logo1.png" alt="logo">, <img class="logo" src="Logo/logo2.png" alt="logo">, UNE.<br/> 
+        </p>
+    <div>
+    
+    <div>
+			<p id="sakrij" class='intro' style="display:none">
 			Linija boje URKI-SISTEM je Univerzalni sistem toniranja koji je napravljen da snabdeva široku lepezu kupaca u rasponu od proizvodne industrije do industrijskog sektora. Uz pomoć naših kolornih karata lako je pronalaženje i podudaranje boja sa široko korišćenih paluba širom sveta, pružajući izvanrednu boju u širokom rasponu obloga.<br/>
 			Kao ekskluzivni distributer BESA INDUSTRIAL COATINGS LINE, ABC BOJA se ponosi time što našim klijentima nudi najnovije industrijske proizvode na tržištu po pristupačnoj ceni. Naši proizvodi formulisani posebno za industrijski sektor, uključuju:<br/>
             Antikorozivne epoksije od poliamida<br/>
             1K Emajli<br/>
             2K poliuretanski gornji premazi<br/>
-            Poliuretanski prajmeri ​​i prodavci<br/>
+            Poliuretanski prajmeri<br/>
             Osnovni bazni slojevi i clear coat pokrica<br/>
             
             Urki-Sistem je univerzalni sistem za nijansiranje kreiran od strane BESA koji nudi rešenja kao odgovor na potrebe tržišta u pogledu asortimana proizvoda, boja, brzine, količine i cene.<br/><br/>
 
-            Posetite našu lokaciju ABC BOJA da biste saznali kako će Urki-sistem funkcionisati na vašem projektu!<br/>
-		</p>
-		<br/>
+            Posetite našu 
+            <strong><a href="index.html/#mapa">lokaciju</a></strong>
+            ABC BOJA da biste saznali kako će Urki-sistem funkcionisati na vašem 
+            projektu!<br/>
+            
+            </p>
+            <script>
+                function myFunction() {
+                var x = document.getElementById("sakrij");
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "none";
+                }
+                }
+            </script>
+            
+            
+            <button style="cursor:pointer" onclick="myFunction()">Prikazi još</button>
+            
+            <br/><br/>
 	</div>
-
-	<div>
+        
+	
+	<div style="clear:right">
+	<br/>
 	<span class="tags"> <! navigacioni template -->
 		PROIZVODI	
 	</span>
-        <br/><br/><br/>
+        <br/><br/>
 	</div>
     <! pocinju slike i koristim class slike sa opisom -->
     
-    <div>
+    <div style="clear:right">
         <div>
             <img src="Proizvodi/urki.jpg" class="slike">
         <div>
@@ -122,6 +159,24 @@ body {
             Kod nas možete nabaviti i svu prateću opremu.
             </p>
         <br/>
+        
+        <div>
+            <a href="https://www.bernardoecenarro.com/en/" target="_blank"><img src="BESA.jpg" class="slike"></a>
+        </div>
+        <br/><br/><br/><br/><br/><br/>
+            <p class="text-slike">
+            Linkovi i materijali za preuzimanje:
+            <br/><br/>
+            <a href="https://www.bernardoecenarro.com/en/" target="_blank">
+            BESA websajt</a> <br/><br/>
+            <a href="Katalozi/Auto_katalog.pdf" target="_blank">
+            Auto katalog </a> <br/><br/>
+            <a href="Katalozi/Industrija_katalog.pdf" target="_blank">
+            Industrijski katalog</a> <br/><br/>
+            <a href="Katalozi/URKI_SISTEM_katalog.pdf" target="_blank">
+            URKI sistem katalog<a/><br/>
+            </p>
+        
     </div> <! kraj slika -->
     
     
@@ -135,11 +190,11 @@ body {
 	
         <div>
             <div>
-                <strong style="color:rgb(74, 93, 104)">Adresa: <br/><br/></strong>
+                <strong class='tekst-kontakt'>Adresa: <br/><br/></strong>
                 <span class="intro">Zgrada E15, Topolica 2, Makedonsko naselje, Bar
                 <br/>Crna Gora </span>
                 <br/><br/>
-                <strong style="color:rgb(74, 93, 104)">Info: <br/><br/></strong>
+                <strong class='tekst-kontakt'>Info: <br/><br/></strong>
                 <span class="intro">Telefon:+382 68 883 800 
                 <img class="logo" src="Logo/viber.png" alt="logo" style="max-width:100%">
                                             <img class="logo" src="Logo/whatsapp.png" alt="logo" style="max-width:100%">
@@ -149,7 +204,7 @@ body {
                 Ziro racun: 565-5381-46 Lovćen Banka<br/> 
                 <span> <br/>
         
-        <div class="map-responsive">
+        <div id="mapa" class="map-responsive">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d740.0998759389583!2d19.100675488095128!3d42.09891399377846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDLCsDA1JzU2LjEiTiAxOcKwMDYnMDQuNCJF!5e0!3m2!1sen!2srs!4v1588200701945!5m2!1sen!2srs" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
         
